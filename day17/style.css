@@ -1,0 +1,23 @@
+
+
+.grid {
+    width: 210px;
+    background-color: yellow;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 28px;
+    height: 28px;
+    border:1px solid black;
+}
+
+.block {
+    background-color: blue;
+}
+
+.occupied {
+    background-color: black;
+}
